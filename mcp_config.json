@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "context7": {
+      "serverUrl": "https://mcp.context7.com/mcp"
+    },
+    "blender": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "uvx",
+        "blender-mcp"
+      ],
+      "disabled": true
+    },
+    "gsap": {
+      "command": "npx",
+      "args": [
+        "bruzethegreat-gsap-master-mcp-server@latest"
+      ]
+    },
+    "motion": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "https://api.motion.dev/registry.tgz?package=motion-studio-mcp&version=latest"
+      ]
+    }
+  }
+}
