@@ -1,0 +1,9 @@
+[submodule "agent-skills"]
+	path = agent-skills
+	url = https://github.com/vercel-labs/agent-skills
+[submodule "skills"]
+	path = skills
+	url = https://github.com/anthropics/skills
+[submodule "superpowers"]
+	path = superpowers
+	url = https://github.com/obra/superpowers
